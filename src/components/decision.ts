@@ -61,13 +61,13 @@ export function initDecisionComponent() {
             }
             @media(min-width:960px){
               .computer_move{
-                height : 600px;
-                width : 400px;
+                height : 400px;
+                width : 250px;
               }
             }
             .player_move{
-                height : 300px;
-                width: 200px;
+                height : 400px;
+                width: 250px;
                 display:block;
                 margin : 0 auto;
                 margin-bottom:-10px;

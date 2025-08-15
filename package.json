@@ -6,11 +6,12 @@
     "parcel": "^2.15.4"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "typescript": "^5.9.2"
   },
   "scripts": {
     "dev": "parcel serve src/index.html",
-    "build": "parcel build src/index.html --dist-dir build",
+    "build": "parcel build src/index.html --dist-dir build --public-url /PPT_offline",
     "deploy": "gh-pages -d build"
   }
 }
