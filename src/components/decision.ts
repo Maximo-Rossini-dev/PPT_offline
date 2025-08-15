@@ -66,6 +66,16 @@ export function initDecisionComponent() {
                 margin : 0 auto;
                 margin-bottom:-10px;
             }
+            @media(min-width:960px){
+              .player_move{
+                height : 500px;
+                width:250px;
+              }
+              .computer_move{
+                 height : 500px;
+                 width:250px;
+              }
+            }
       `;
       setTimeout(() => {
         state.result();
