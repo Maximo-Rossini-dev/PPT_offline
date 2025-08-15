@@ -59,25 +59,15 @@ export function initDecisionComponent() {
                 margin : 0 auto;
                 margin-top:-20px;
             }
-            @media(min-width:960px){
-              .computer_move{
-                height : 400px;
-                width : 250px;
-              }
-            }
+            
             .player_move{
-                height : 400px;
-                width: 250px;
+                height : 300px;
+                width: 200px;
                 display:block;
                 margin : 0 auto;
                 margin-bottom:-10px;
             }
-            @media(min-width:960px){
-              .player_move{
-                height : 600px;
-                width:400px;
-              }
-            }
+          
              
            
       `;
