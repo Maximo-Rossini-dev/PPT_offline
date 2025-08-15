@@ -59,7 +59,6 @@ export function initDecisionComponent() {
                 margin : 0 auto;
                 margin-top:-20px;
             }
-            
             .player_move{
                 height : 300px;
                 width: 200px;
@@ -67,9 +66,6 @@ export function initDecisionComponent() {
                 margin : 0 auto;
                 margin-bottom:-10px;
             }
-          
-             
-           
       `;
       setTimeout(() => {
         state.result();
