@@ -1,0 +1,9 @@
+.container {
+  height: 100vh;
+  overflow: hidden;
+}
+@media (min-width: 960px) {
+  .container {
+    justify-content: center;
+  }
+}

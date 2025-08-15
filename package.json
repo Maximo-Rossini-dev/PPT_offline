@@ -1,0 +1,16 @@
+{
+  "name": "ppt",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.15.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "dev": "parcel serve src/index.html",
+    "build": "parcel build src/index.html --dist-dir build",
+    "deploy": "gh-pages -d build"
+  }
+}
