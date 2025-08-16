@@ -6,7 +6,7 @@ import { initDecisionComponent } from "./components/decision";
 import { initScoreComponent } from "./components/score";
 import { initRouter } from "./router";
 import { state } from "./state";
-
+const bakcgroundURL = new URL("./fondo.svg", import.meta.url);
 (function () {
   state.initStorage();
   initStartComponent();
@@ -14,6 +14,8 @@ import { state } from "./state";
   initPlayComponent();
   initDecisionComponent();
   initScoreComponent();
-  const rootEl = document.querySelector(".root");
+  const rootEl: any = document.querySelector(".root");
+  rootEl.style.background = ` url(${bakcgroundURL}) no-repeat`;
+  rootEl.style.backgroundSize = `cover`;
   initRouter(rootEl);
 })();

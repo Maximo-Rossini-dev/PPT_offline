@@ -35,3 +35,6 @@ AddHoverEffect(img){} : Este método recibe un elemento HTML, en este caso un ta
 shrinkOtherImages(activeImg){} : Este método recibe como parámetro la imagen a la cual se le esta haciendo foco y en base a ella itera las demas imagenes que obtiene del shadowRoot. Toda imagen que no sea la activeImg sera modificada para que su tamaño sea reducido.
 
 resetOtherImages(activeImg){} : Este método se encarga de devolver las demas imagenes respecto a la activeImg al tamaño original cuando el usuario deja de hacer foco sobre una de las imagenes.
+
+PROXIMO PASO :
+SOLUCIONAR RUTA DEL FONDO EN GHP
